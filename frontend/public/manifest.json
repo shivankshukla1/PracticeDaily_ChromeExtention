@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name":"Practice Daily",
+  "description":"This is a chrome extenstion developed by Shivank from IIT bhilai, and this will help you to get all the links of POTD's together. Happy Coding!!",
+  "version":"0.1.0",
+  
+  "action":{
+    "default_popup":"index.html",
+    "default_title":"Practice Daily"
+  },
+  "permissions":[
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://*/",
+    "http://*/"
+  ]
+}
