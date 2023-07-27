@@ -6,7 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import { Home } from './components/Home';
 import {Todo} from "./components/Todo";
-import {View, view} from "./View";
+import {View} from "./components/View";
 import { Happy } from './Happy';
 function App() {
   return (

@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
 
-import { Home } from './components/Home';
-import {Todo} from "./components/Todo";
+import { Home } from './Home';
+import {Todo} from "./Todo";
 
 export const View = () => {
     const [Screen, setScreen] = useState(1);
