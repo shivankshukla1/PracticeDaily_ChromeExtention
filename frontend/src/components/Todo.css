@@ -1,0 +1,13 @@
+.main-container {
+  width: 400px;
+  /* margin: auto; */
+  height: 342px;
+  overflow: scroll;
+  overflow-x: hidden;
+  /* overflow-y: hidden; */
+}
+
+.todolist-header {
+  font-weight: bold;
+  text-align: center;
+}

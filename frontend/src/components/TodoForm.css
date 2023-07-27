@@ -1,0 +1,34 @@
+/* *input form */
+
+.todo-input-form {
+  text-align: center;
+  width: 400px;
+  margin: auto;
+  /* height: 404px; */
+}
+
+.todo-input {
+  font-size: 18px;
+  padding: 5px;
+  width: 500px;
+  max-width: 100%;
+  background-color: lightgray;
+}
+
+.todo-input-edit {
+  width: 100%;
+  color: black;
+  background-color: rgb(238, 238, 238);
+}
+
+.todo-input,
+.todo-input-edit {
+  border: 0px;
+  border-bottom: 1px solid black;
+}
+
+.todo-input:focus-visible,
+.todo-input-edit:focus-visible {
+  outline-style: none;
+  outline-width: 0px;
+}
